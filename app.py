@@ -39,4 +39,4 @@ def recommend_movies():
     return json.dumps(dict_)
 
 if __name__ == '__main__':
-    app.run(port = 5000, debug = True)
+    app.run(port = 5000)
